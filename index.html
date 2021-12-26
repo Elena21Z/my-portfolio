@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Биография</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="reset.css" />
+        <link rel="stylesheet" type="text/css" href="reset.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Cormorant+Garamond:wght@600&family=Lobster&family=Oxygen:wght@300&family=Playfair+Display&family=Smooch&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Cormorant+Garamond:ital,wght@0,600;1,700&family=Lobster&family=Oxygen:wght@300&family=Playfair+Display&family=Smooch&display=swap" rel="stylesheet">
+<style>
+    h1 { /*заголовок привет*/
+        font-family: Cormorant Garamondy;
+        font-weight: 300;/* жирность текста*/
+        font-size: 50px;/* размер шрифта*/
+        text-align: center;
+        font-style: italic;
+        color: white;
+        margin-top: 150px;
+        margin-bottom: 150px;
+    }
+    h2 { /*заголовок пару слов*/
+     text-align: center;  
+     font-family: Cormorant Garamondy;
+     font-weight: 500;
+     font-size: 30px;
+     margin-top: 70px;
+     margin-bottom: 30px;
+    }
+    h3 { /*заголовок мои навыки*/
+    text-align: center;  
+     font-family: Cormorant Garamondy;
+     font-weight: 500;
+     font-size: 30px;
+     margin-bottom: 20px; 
+    }
+    p {
+     text-align: center;
+     font-size: 18px;
+     margin-bottom: 30px;
+    }
+    .alfa {
+        object-fit: cover;
+        width: 400px;
+        height: 400px;
+        object-position: center;
+        margin: 10px auto 30px;
+        display: block;
+    }
+    .menu { /*меню*/
+        color: white;
+        display:inline-block;
+        padding-top: 20px;
+        padding-left: 40px;
+        padding-right: 0px;
+        text-decoration: none;
+    }
+    .menu:hover {
+        color: rgb(20, 8, 8);
+    }
+    .box1 {
+        background-color: rgb(148, 114, 179);
+        padding-bottom: 200px;
+        padding: 10px; /* Поля вокруг текста */
+    }
+    h4 { /*заголовок мои сильные стороны*/
+     text-align: center;  
+     font-family: Cormorant Garamondy;
+     font-weight: 500;
+     font-size: 30px;
+     margin-top: 70px;
+     margin-bottom: 30px; 
+    }
+    li {
+     text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px; 
+    }
+    .box3 {
+        background-color: rgb(223, 217, 228);
+        padding-bottom: 50px;
+        padding-top: 30px;
+    }
+    .box6 {
+        background-color: rgb(244, 240, 247);
+        padding-bottom: 100px;
+        padding-top: 50px;
+    }
+    .box5 {
+        background-color: rgb(223, 217, 228);
+        padding-bottom: 50px;
+
+    }
+    .skill {
+    background: #6e0783; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    padding: 10px; /* Поля вокруг текста */
+    border-radius: 5px; /* Уголки */
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+    
+    h5 { /*заголовок мои работы*/
+     text-align: center;  
+     font-family: Cormorant Garamondy;
+     font-weight: 500;
+     font-size: 30px;
+     margin-top: 70px;
+     margin-bottom: 30px; 
+    }
+    h6 { /*заголовок контакты*/
+     text-align: center;  
+     font-family: Cormorant Garamondy;
+     font-weight: 500;
+     font-size: 30px;
+     margin-top: 70px;
+     margin-bottom: 30px;
+    }
+   
+    p {/*почта*/
+        color: black;
+        display:block;
+      
+    }
+    .link {/*ссылка инсты*/
+        color: black;
+        display:block;
+        text-decoration: none;
+    }
+    .link:hover {
+       color: rgb(80, 80, 238);
+    }
+    .ph { /*иконка телефона.инсты.почты*/
+        width: 20px;
+        height: 20px;
+        display: block;
+        margin-right: 10px;
+    }
+    .box {
+        max-width: 1024px;
+        width: 100%;
+        height: 600px;
+    }
+    .skills {
+        margin-bottom: 150px;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .list {
+        padding-right: 10px;
+        padding-left: 10px;
+    } 
+.container {
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.content {
+    margin: auto;
+    width: 100%; 
+    max-width: 1000px;
+    font-size: 18px;
+}
+.job {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-around;
+
+}
+
+.backgraund {
+    width: 200px;
+    height: 100px;
+    background-color: #b1a7b3;
+    border-radius: 5px;
+}
+.text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+</style>
+    
+</head>
+    <body>
+        
+    <div class="box1">
+        <a class="menu" href="#header1">Обо мне</a>
+        <a class="menu" href="#heard2">Мои навыки</a>
+        <a class="menu"  href="#heard3">Мои работы</a>
+        <a class="menu" href="#heard4">Контаты</a>
+        <h1>Привет, я Елена Зиза!</h1>
+    </div>
+    <div class="box2"> 
+    <h2 id="header1">Пара слов обо мне</h2>
+        <p> Я начинающий фронтенд-разработчик. Мечтаю работать сидя жопкой на песочке. А также путешествовать с котом.</p>
+        <img class="alfa" alt="" src= "foto.jpeg"/>
+    </div>
+    <div class="box3">
+        <h3 id="heard2">Мои навыки</h3>
+        <div class="skills">
+            <p class="skill">HTML</p>
+            <p class="skill">CSS</p>
+            <p class="skill">Flexbox</p>
+        </div>
+    </div>
+    <div class="box6">
+        <h4>Мои сильные стороны</h4> 
+        <div class="container">   
+            <div class="list">
+                <ul>
+                    <li>Комуникабельность</li>
+                    <li>Обучаемость</li>
+                </ul>
+            </div>
+            <div class="list">
+                <ul>
+                    <li>Исполнительность</li>
+                    <li>Целеустремленность</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <h5 id="heard3">Мои работы</h5>
+<div class="job">
+    <div class="backgraund">
+
+    </div>
+        <div class="backgraund">
+
+    </div>
+        <div class="backgraund">
+
+    </div>
+    </div>
+    <div class="text">
+        <p>Проект 1</p>
+        <p>Проект 2</p>
+        <p>Проект 3</p>
+    </div>
+<div class="box5">
+    <div class="content">
+        <h6 id="heard4">Контакты</h6>
+        <div class="logo">
+            <img alt="" src= "phone.png" class="ph"/>
+            <p>+7(800)200-600</p>
+        </div>
+        <div class="logo">
+            <img alt="" src= "pochta.png" class="ph"/>
+            <p>lgkf@yandex.ru</p>
+        </div>
+        <div class="logo">
+            <img alt="" src= "instagram.png" class="ph"/>
+            <a class="link" href="https://www.instagram.com/gennadievnnna/">Instagram</a>
+            
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
